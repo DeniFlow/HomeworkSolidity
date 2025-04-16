@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "contracts/Factory/IUtilityContract.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MediumBoss is IUtilityContract,Ownable {
+contract ERC20Airdroper is IUtilityContract,Ownable {
 
     error AlreadyInitialized();
     error ArraysLengthMismatch();
